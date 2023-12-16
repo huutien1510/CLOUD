@@ -17,7 +17,7 @@
 
             <!-- Localhost MySQL -->
             <property name="hibernate.connection.url"
-                      value="jdbc:mysql:///ecommerce?cloudSqlInstance=august-circle-406201:asia-southeast1:nhom17&socketFactory=com.google.cloud.sql.mysql.SocketFactory&user=root&password=Huutien1510"/>
+                      value="jdbc:mysql:///e-commerce?cloudSqlInstance=august-circle-406201:asia-southeast1:nhom17&socketFactory=com.google.cloud.sql.mysql.SocketFactory&user=root&password=Huutien1510"/>
             <property name="hibernate.connection.username" value="root"/>
             <property name="hibernate.connection.password" value="Huutien1510"/>
 
