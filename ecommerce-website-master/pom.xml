@@ -44,13 +44,7 @@
             <version>8.0.31</version>
             <scope>runtime</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.google.cloud.sql/mysql-socket-factory-connector-j-8 -->
-        <dependency>
-            <groupId>com.google.cloud.sql</groupId>
-            <artifactId>mysql-socket-factory</artifactId>
-            <version>1.0.4</version>
-        </dependency>
-
+ 
         <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
         <dependency>
             <groupId>org.hibernate</groupId>
@@ -129,7 +123,7 @@
                     <version>GCLOUD_CONFIG</version>
                 </configuration>
             </plugin>
-            
+
         </plugins>
     </build>
 </project>
