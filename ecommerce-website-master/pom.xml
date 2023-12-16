@@ -106,12 +106,24 @@
             </plugin>
 
 
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-war-plugin</artifactId>
+                        <version>2.2</version>
+                        <configuration>
+                            <webxml>src/main/webapp/WEB-INF/appengine-web.xml</webxml>
+                            <!-- ... other configurations ... -->
+                        </configuration>
+                    </plugin>
+
+
+
             <plugin>
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>appengine-maven-plugin</artifactId>
                 <version>2.2.0</version>
                 <configuration>
-                    <projectId>myProjectId</projectId>
+                    <projectId>august-circle-406201</projectId>
                     <version>GCLOUD_CONFIG</version>
                 </configuration>
             </plugin>
