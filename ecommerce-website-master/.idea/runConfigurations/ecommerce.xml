@@ -5,7 +5,6 @@
     <predefined_log_file id="Tomcat Catalina Log" />
     <predefined_log_file id="Tomcat Manager Log" />
     <predefined_log_file id="Tomcat Host Manager Log" />
-    <option name="adminPort" value="8080" />
     <option name="catalinaBase" value="C:\Users\DELL\.SmartTomcat\ecommerce-website-master\eCommerceWebsite" />
     <option name="contextPath" value="/eCommerceWebsite" />
     <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
